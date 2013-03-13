@@ -3,11 +3,10 @@ from textdrawer import TextDrawer
 
 def main():
 	text = getText()
-	font = FontLoader().loadFont('fancyFont/');
-	
+	font = FontLoader().loadFont('fancyFont/');	
 	drawer = TextDrawer()
-    drawer.setFont(font)
-    drawer.draw(text)
+	drawer.setFont(font)
+	drawer.draw(text)
 
 def getText():
     return 'Git'
