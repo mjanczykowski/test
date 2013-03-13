@@ -9,7 +9,7 @@ def main():
 	drawer.draw(text)
 
 def getText():
-    return 'Git'
+	return 'Git'
 
 if __name__ == '__main__':
 	main()
